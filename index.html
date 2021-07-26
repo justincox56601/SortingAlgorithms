@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="ui">
+		<p>List Size: 1<input type="range" name="range" id="range" value=10>255</p>
+		<p>Sort Method: <select name="method" id="method">
+			<option value="BubbleSort">Bubble Sort</option>
+			<option value="SelectionSort">Selection Sort</option>
+			<option value="QuickSort">Quick Sort</option>
+			<option value="InsertionSort">Insertion Sort</option>
+			
+		</select></p>
+		<p>FPS: 1<input type="range" name="fps" id="fps" value=50>60</p>
+		<button id='sort_btn'>Sort This List</button>
+	</div>
+	
+	
+	
+	<div id="listUnsort"></div>
+	<div id="listSort"></div>
+	<script src="main.js" type=module></script>
+	
+
+</body>
+</html>
